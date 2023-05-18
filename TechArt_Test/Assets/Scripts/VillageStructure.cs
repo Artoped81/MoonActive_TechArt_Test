@@ -49,7 +49,7 @@ public class VillageStructure : MonoBehaviour
         yield return new WaitForSeconds(delay);
         structureLevels[currentLevel - 1].SetActive(false);
         LevelIn();
-        StopAllCoroutines();
+        
     }
 
     public void LevelIn()
@@ -57,6 +57,7 @@ public class VillageStructure : MonoBehaviour
         structureLevels[currentLevel].SetActive(true);
         Animator animIn = structureLevels[currentLevel].GetComponent<Animator>();
         animIn.Play("Level_In");
+        StopAllCoroutines();
 
         currentLevel++;
     }
