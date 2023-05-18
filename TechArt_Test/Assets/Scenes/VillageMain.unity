@@ -1809,7 +1809,8 @@ MonoBehaviour:
   - {fileID: 1748661150}
   buildButtonEnabled: {fileID: 1598550391}
   buildButtonDisabled: {fileID: 1945104734}
-  buildEffect: {fileID: 0}
+  buildEffect: {fileID: 3738506711197351757, guid: c0a9943bce1ab884f90e7c56b2f69a56,
+    type: 3}
 --- !u!1 &400395700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,7 +2738,8 @@ MonoBehaviour:
   - {fileID: 2133412496}
   buildButtonEnabled: {fileID: 632832118}
   buildButtonDisabled: {fileID: 495562296}
-  buildEffect: {fileID: 0}
+  buildEffect: {fileID: 3738506711197351757, guid: c0a9943bce1ab884f90e7c56b2f69a56,
+    type: 3}
 --- !u!1 &582865417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2981,7 +2983,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 580673512}
-        m_MethodName: BuildStructure
+        m_MethodName: BuildSequence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3175,7 +3177,8 @@ MonoBehaviour:
   - {fileID: 78245160}
   buildButtonEnabled: {fileID: 739343123}
   buildButtonDisabled: {fileID: 139926257}
-  buildEffect: {fileID: 0}
+  buildEffect: {fileID: 3738506711197351757, guid: c0a9943bce1ab884f90e7c56b2f69a56,
+    type: 3}
 --- !u!1 &670213864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,7 +3710,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1217729603}
-        m_MethodName: BuildStructure
+        m_MethodName: BuildSequence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3941,7 +3944,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 669170921}
-        m_MethodName: BuildStructure
+        m_MethodName: BuildSequence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5682,7 +5685,8 @@ MonoBehaviour:
   - {fileID: 1556722804}
   buildButtonEnabled: {fileID: 719984824}
   buildButtonDisabled: {fileID: 894383225}
-  buildEffect: {fileID: 0}
+  buildEffect: {fileID: 3738506711197351757, guid: c0a9943bce1ab884f90e7c56b2f69a56,
+    type: 3}
 --- !u!1 &1220725581
 GameObject:
   m_ObjectHideFlags: 0
@@ -6473,7 +6477,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1515234801}
-        m_MethodName: BuildStructure
+        m_MethodName: BuildSequence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6852,7 +6856,8 @@ MonoBehaviour:
   - {fileID: 1644254698}
   buildButtonEnabled: {fileID: 1387972988}
   buildButtonDisabled: {fileID: 2116459976}
-  buildEffect: {fileID: 0}
+  buildEffect: {fileID: 3738506711197351757, guid: c0a9943bce1ab884f90e7c56b2f69a56,
+    type: 3}
 --- !u!1 &1517094833
 GameObject:
   m_ObjectHideFlags: 0
@@ -7347,7 +7352,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 397675402}
-        m_MethodName: BuildStructure
+        m_MethodName: BuildSequence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

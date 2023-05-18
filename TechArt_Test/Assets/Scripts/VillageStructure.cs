@@ -28,6 +28,20 @@ public class VillageStructure : MonoBehaviour
         }
     }
 
+    public void BuildSequence()
+    {
+        GameObject effect = Instantiate(buildEffect, transform.position, transform.rotation);
+        effect.transform.SetParent(gameObject.transform, false);
+        StartCoroutine(Delay());
+        
+    }
+
+    public IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(2.5f);
+        BuildStructure();
+    }
+
     public void BuildStructure()
     {
         if (currentLevel < structureLevels.Count)
