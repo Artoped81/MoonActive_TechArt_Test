@@ -2991,7 +2991,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 7660489206314114905}
+      - m_Target: {fileID: 8030432711389098779}
         m_MethodName: BuildStructure
         m_Mode: 1
         m_Arguments:
@@ -8548,7 +8548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ec9beba49f62a8f45b889624b287e2c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2531a970ea8014147b6f2a849947d629, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10325,7 +10325,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 580673512}
+      - m_Target: {fileID: 7660489206911130298}
         m_MethodName: BuildStructure
         m_Mode: 1
         m_Arguments:
@@ -16177,7 +16177,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 478535db8b1af884bbc90020594d0e2e, type: 3}
   - {fileID: 21300000, guid: 2a32baa7996cb3342b0e69165bf7ab24, type: 3}
   - {fileID: 21300000, guid: 2531a970ea8014147b6f2a849947d629, type: 3}
-  - {fileID: 21300000, guid: ec9beba49f62a8f45b889624b287e2c1, type: 3}
+  - {fileID: 21300000, guid: 2531a970ea8014147b6f2a849947d629, type: 3}
   progressBarStars:
   - {fileID: 5748906802244097109}
   - {fileID: 3011181856542990650}

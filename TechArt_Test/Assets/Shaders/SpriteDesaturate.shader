@@ -78,6 +78,7 @@ Shader "Sprites/Desaturate"
 				half2 texcoord  : TEXCOORD0;
 			};
 			
+			sampler2D _MainTex;
 			fixed4 _Color;
 			fixed _Saturate;
 			fixed _Bright;
