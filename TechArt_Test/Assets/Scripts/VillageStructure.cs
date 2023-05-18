@@ -42,6 +42,24 @@ public class VillageStructure : MonoBehaviour
         BuildStructure();
     }
 
+    public IEnumerator LevelOutIn(float delay)
+    {
+        Animator animOut = structureLevels[currentLevel - 1].GetComponent<Animator>();
+        animOut.Play("Level_Out");
+        yield return new WaitForSeconds(delay);
+        structureLevels[currentLevel - 1].SetActive(false);
+        LevelIn();
+    }
+
+    public void LevelIn()
+    {
+        structureLevels[currentLevel].SetActive(true);
+        Animator animIn = structureLevels[currentLevel].GetComponent<Animator>();
+        animIn.Play("Level_In");
+
+        currentLevel++;
+    }
+
     public void BuildStructure()
     {
         if (currentLevel < structureLevels.Count)
@@ -51,15 +69,14 @@ public class VillageStructure : MonoBehaviour
 
             if (currentLevel > 0)
             {
-                Animator anim = structureLevels[currentLevel-1].GetComponent<Animator>();
-                structureLevels[currentLevel-1].SetActive(false);
-
-
+                StartCoroutine(LevelOutIn(0.7f));
+            }
+            else
+            {
+                LevelIn();
             }
             
-            structureLevels[currentLevel].SetActive(true);
-
-            currentLevel++;
+            
         }
         else
         {
