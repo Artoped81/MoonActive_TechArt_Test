@@ -4873,6 +4873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3738506711197351756}
   - component: {fileID: 3738506711197351759}
+  - component: {fileID: 8650502944764372896}
   m_Layer: 5
   m_Name: BuildEffect
   m_TagString: Untagged
@@ -4920,6 +4921,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8650502944764372896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3738506711197351757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9b46dd2af74f446a0eaf00872aa4bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 3738506711197351757}
+  destroyAfter: 4
 --- !u!1 &3738506711291145555
 GameObject:
   m_ObjectHideFlags: 0
