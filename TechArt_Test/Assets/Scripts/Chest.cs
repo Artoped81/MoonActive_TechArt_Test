@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Events;
+
 public class Chest : MonoBehaviour
 {
     [SerializeField] Button button;   
