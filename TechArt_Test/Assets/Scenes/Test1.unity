@@ -399,7 +399,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 6.8006, y: 381}
-  m_SizeDelta: {x: 1165.5, y: 2877}
+  m_SizeDelta: {x: 1631, y: 2877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1219574006
 MonoBehaviour:
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1152, y: 2048}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
